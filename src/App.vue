@@ -1,12 +1,18 @@
 <template>
-  <add-blog></add-blog>
+  <div>
+    <product-list-one></product-list-one>
+    <product-list-two></product-list-two>
+  </div>
 </template>
 
 <script>
-import addBlog from "./components/addBlog.vue";
+import ProductListOne from "./components/ProductListOne.vue";
+import ProductListTwo from "./components/ProductListTwo.vue";
+
 export default {
   components: {
-    "add-blog": addBlog
+    "product-list-one": ProductListOne,
+    "product-list-two": ProductListTwo
   },
   data() {
     return {};
